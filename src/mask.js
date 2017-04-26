@@ -55,7 +55,7 @@ angular.module('ui.mask', [])
                 }
 
                 return {
-                    priority: 100,
+                    priority: 150,
                     require: 'ngModel',
                     restrict: 'A',
                     compile: function uiMaskCompilingFunction() {
